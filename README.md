@@ -5,25 +5,30 @@ Currently takes the past hour of readings and plots them using matplotlib.
 
 ## Dependencies
 #### Compositor
-> A Wayland compositor that support the Layer Shell protocol. Layer shell is supported on:
-> - wlroots based compositors (such as Sway)
-> - Smithay based compositors (such as COSMIC)
-> - Mir based compositors (some may not enable the protocol by default. It can be enabled with --add-wayland-extension zwlr_layer_shell_v1)
-> - KDE Plasma on wayland
->
-> Layer shell is not supported on:
-> - Gnome-on-Wayland
-> - Any X11 desktop
+```
+A Wayland compositor that support the Layer Shell protocol. Layer shell is supported on:
+  wlroots based compositors (such as Sway)
+  Smithay based compositors (such as COSMIC)
+  Mir based compositors (some may not enable the protocol by default. It can be enabled with --add-wayland-extension zwlr_layer_shell_v1)
+  KDE Plasma on wayland
 
+Layer shell is not supported on:
+  Gnome-on-Wayland
+  Any X11 desktop
+```
 ^ Taken from gtk4-layer-shell README
 
-#### Packages
-**Pip packages:** \
-`PyGObject matplotlib pydexcom`
+#### Pip Packages
+```
+PyGObject matplotlib pydexcom
+```
+#### OS packages:
+**Arch:**
+```
+gtk4 gtk4-layer-shell gobject-introspection
+```
 
-**OS packages:** \
-Arch: `gtk4 gtk4-layer-shell gobject-introspection` \
-Install the associated packages for your distro.
+*Install the associated packages for your distro.*
 
 ## Run
 ```
@@ -43,7 +48,7 @@ Dexcom SHARE username, password and window position are hardcoded into dexwidget
 - [ ] Decrease startup time (optimise matplotlib or replace altogether) (ergo remove need for GLib wheel spinner)
 - [ ] Add Dark/Light mode functionality?
 - [ ] Logging to json file for extended history
-- [ ] Settings (username, password, window position, mg/dL/mmol units etc.)
+- [ ] Settings (username, password, window position, mg/dL or mmol units etc.)
 
 <br>
 
