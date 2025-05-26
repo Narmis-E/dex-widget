@@ -49,3 +49,7 @@ Dexcom SHARE username, password and window position are hardcoded into dexwidget
 
 - Contributions are very much welcome.
 - At the moment my gtk knowledge is equivalent to a steaming pile of shit 👍
+
+## Disclaimer
+> I am utilizing the Dexcom Share API solely for personal use and do not have any affiliation with Dexcom, Inc. This application is not endorsed, sponsored, or managed by Dexcom, and I do not take any responsibility for the accuracy or performance of the data provided through the API. Furthermore, I do not profit from, or claim ownership of, any Dexcom-related content or services. All trademarks, logos, and brand names belong to their respective owners.
+
