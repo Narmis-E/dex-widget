@@ -47,4 +47,5 @@ Dexcom SHARE username, password and window position are hardcoded into dexwidget
 
 <br>
 
-- Contributions are very much welcome. At the moment my gtk knowledge is equivalent to a steaming pile of shit 👍. 
+- Contributions are very much welcome.
+- At the moment my gtk knowledge is equivalent to a steaming pile of shit 👍
